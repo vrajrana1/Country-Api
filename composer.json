@@ -1,0 +1,25 @@
+{
+    "name": "admin/api",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "v"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp\\": "guzzle/src/"
+        }
+    },
+    
+     "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "config": {
+
+        "platform-check": false
+    }
+}
